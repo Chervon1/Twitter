@@ -10,7 +10,6 @@
         android:id="@+id/ivProfileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_margin="5dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
@@ -28,6 +27,8 @@
         android:layout_below="@+id/tvScreenName"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
+        android:autoLink="all"
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="This is my tweet!!" />
+
 </RelativeLayout>
